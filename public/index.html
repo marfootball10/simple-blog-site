@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>My Blog</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <main>
+            <article class="post">
+                <h1>My Blog</h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur vitae neque vitae lorem malesuada tincidunt.
+                    Integer non turpis sed nisl consequat tincidunt.
+                    Donec vel justo eget nulla consequat tincidunt.
+                </p>
+            </article>
+
+            <section class="comments">
+                <h2>Comments</h2>
+
+                <p id="comments-status" class="status">Loading comments...</p>
+
+                <div id="comments-list"></div>
+            </section>
+
+            <section class="comment-form">
+                <h2>Leave a comment</h2>
+
+                <form id="comment-form">
+
+                    <label for="username">Username</label>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        required
+                    >
+
+                    <label for="body">Comment</label>
+                    <textarea
+                        id="body"
+                        name="body"
+                        rows="4"
+                        required
+                    ></textarea>
+
+                    <button type="submit">Post comment</button>
+
+                    <p id="form-status" class="status"></p>
+
+                </form>
+            </section>
+        </main>
+    <script src="script.js"></script>
+    </body>
+</html>

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CrusaderSVK287/simple-blog-site/issues"
   },
-  "homepage": "https://github.com/CrusaderSVK287/simple-blog-site#readme"
+  "homepage": "https://github.com/CrusaderSVK287/simple-blog-site#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
 }
